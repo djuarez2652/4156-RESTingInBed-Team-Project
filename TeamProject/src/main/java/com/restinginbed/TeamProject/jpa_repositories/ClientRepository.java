@@ -1,7 +1,7 @@
 package com.restinginbed.TeamProject.jpa_repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.restinginbed.TeamProject.User;
+import com.restinginbed.TeamProject.Client;
 
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface ClientRepository extends JpaRepository<Client, Integer> {
 }
